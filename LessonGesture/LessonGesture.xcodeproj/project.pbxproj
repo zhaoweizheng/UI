@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34D4AF7A1AB65E9400C78DB3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34D4AF791AB65E9400C78DB3 /* Foundation.framework */; };
+		34D4AF7C1AB65E9400C78DB3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34D4AF7B1AB65E9400C78DB3 /* CoreGraphics.framework */; };
+		34D4AF7E1AB65E9400C78DB3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34D4AF7D1AB65E9400C78DB3 /* UIKit.framework */; };
+		34D4AF841AB65E9400C78DB3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 34D4AF821AB65E9400C78DB3 /* InfoPlist.strings */; };
+		34D4AF861AB65E9400C78DB3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 34D4AF851AB65E9400C78DB3 /* main.m */; };
+		34D4AF8A1AB65E9400C78DB3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 34D4AF891AB65E9400C78DB3 /* AppDelegate.m */; };
+		34D4AF8C1AB65E9400C78DB3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34D4AF8B1AB65E9400C78DB3 /* Images.xcassets */; };
+		34D4AF931AB65E9400C78DB3 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34D4AF921AB65E9400C78DB3 /* XCTest.framework */; };
+		34D4AF941AB65E9400C78DB3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34D4AF791AB65E9400C78DB3 /* Foundation.framework */; };
+		34D4AF951AB65E9400C78DB3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34D4AF7D1AB65E9400C78DB3 /* UIKit.framework */; };
+		34D4AF9D1AB65E9400C78DB3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 34D4AF9B1AB65E9400C78DB3 /* InfoPlist.strings */; };
+		34D4AF9F1AB65E9400C78DB3 /* LessonGestureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34D4AF9E1AB65E9400C78DB3 /* LessonGestureTests.m */; };
+		34D4AFAA1AB65EBC00C78DB3 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34D4AFA91AB65EBC00C78DB3 /* RootViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		34D4AF961AB65E9400C78DB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34D4AF6E1AB65E9400C78DB3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34D4AF751AB65E9400C78DB3;
+			remoteInfo = LessonGesture;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		34D4AF761AB65E9400C78DB3 /* LessonGesture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LessonGesture.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		34D4AF791AB65E9400C78DB3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		34D4AF7B1AB65E9400C78DB3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		34D4AF7D1AB65E9400C78DB3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		34D4AF811AB65E9400C78DB3 /* LessonGesture-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LessonGesture-Info.plist"; sourceTree = "<group>"; };
+		34D4AF831AB65E9400C78DB3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		34D4AF851AB65E9400C78DB3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		34D4AF871AB65E9400C78DB3 /* LessonGesture-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LessonGesture-Prefix.pch"; sourceTree = "<group>"; };
+		34D4AF881AB65E9400C78DB3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		34D4AF891AB65E9400C78DB3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		34D4AF8B1AB65E9400C78DB3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		34D4AF911AB65E9400C78DB3 /* LessonGestureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LessonGestureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		34D4AF921AB65E9400C78DB3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		34D4AF9A1AB65E9400C78DB3 /* LessonGestureTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LessonGestureTests-Info.plist"; sourceTree = "<group>"; };
+		34D4AF9C1AB65E9400C78DB3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		34D4AF9E1AB65E9400C78DB3 /* LessonGestureTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LessonGestureTests.m; sourceTree = "<group>"; };
+		34D4AFA81AB65EBC00C78DB3 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		34D4AFA91AB65EBC00C78DB3 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34D4AF731AB65E9400C78DB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34D4AF7C1AB65E9400C78DB3 /* CoreGraphics.framework in Frameworks */,
+				34D4AF7E1AB65E9400C78DB3 /* UIKit.framework in Frameworks */,
+				34D4AF7A1AB65E9400C78DB3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34D4AF8E1AB65E9400C78DB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34D4AF931AB65E9400C78DB3 /* XCTest.framework in Frameworks */,
+				34D4AF951AB65E9400C78DB3 /* UIKit.framework in Frameworks */,
+				34D4AF941AB65E9400C78DB3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34D4AF6D1AB65E9400C78DB3 = {
+			isa = PBXGroup;
+			children = (
+				34D4AF7F1AB65E9400C78DB3 /* LessonGesture */,
+				34D4AF981AB65E9400C78DB3 /* LessonGestureTests */,
+				34D4AF781AB65E9400C78DB3 /* Frameworks */,
+				34D4AF771AB65E9400C78DB3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		34D4AF771AB65E9400C78DB3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34D4AF761AB65E9400C78DB3 /* LessonGesture.app */,
+				34D4AF911AB65E9400C78DB3 /* LessonGestureTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34D4AF781AB65E9400C78DB3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				34D4AF791AB65E9400C78DB3 /* Foundation.framework */,
+				34D4AF7B1AB65E9400C78DB3 /* CoreGraphics.framework */,
+				34D4AF7D1AB65E9400C78DB3 /* UIKit.framework */,
+				34D4AF921AB65E9400C78DB3 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		34D4AF7F1AB65E9400C78DB3 /* LessonGesture */ = {
+			isa = PBXGroup;
+			children = (
+				34D4AF881AB65E9400C78DB3 /* AppDelegate.h */,
+				34D4AF891AB65E9400C78DB3 /* AppDelegate.m */,
+				34D4AFA81AB65EBC00C78DB3 /* RootViewController.h */,
+				34D4AFA91AB65EBC00C78DB3 /* RootViewController.m */,
+				34D4AF8B1AB65E9400C78DB3 /* Images.xcassets */,
+				34D4AF801AB65E9400C78DB3 /* Supporting Files */,
+			);
+			path = LessonGesture;
+			sourceTree = "<group>";
+		};
+		34D4AF801AB65E9400C78DB3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				34D4AF811AB65E9400C78DB3 /* LessonGesture-Info.plist */,
+				34D4AF821AB65E9400C78DB3 /* InfoPlist.strings */,
+				34D4AF851AB65E9400C78DB3 /* main.m */,
+				34D4AF871AB65E9400C78DB3 /* LessonGesture-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		34D4AF981AB65E9400C78DB3 /* LessonGestureTests */ = {
+			isa = PBXGroup;
+			children = (
+				34D4AF9E1AB65E9400C78DB3 /* LessonGestureTests.m */,
+				34D4AF991AB65E9400C78DB3 /* Supporting Files */,
+			);
+			path = LessonGestureTests;
+			sourceTree = "<group>";
+		};
+		34D4AF991AB65E9400C78DB3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				34D4AF9A1AB65E9400C78DB3 /* LessonGestureTests-Info.plist */,
+				34D4AF9B1AB65E9400C78DB3 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34D4AF751AB65E9400C78DB3 /* LessonGesture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34D4AFA21AB65E9400C78DB3 /* Build configuration list for PBXNativeTarget "LessonGesture" */;
+			buildPhases = (
+				34D4AF721AB65E9400C78DB3 /* Sources */,
+				34D4AF731AB65E9400C78DB3 /* Frameworks */,
+				34D4AF741AB65E9400C78DB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LessonGesture;
+			productName = LessonGesture;
+			productReference = 34D4AF761AB65E9400C78DB3 /* LessonGesture.app */;
+			productType = "com.apple.product-type.application";
+		};
+		34D4AF901AB65E9400C78DB3 /* LessonGestureTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34D4AFA51AB65E9400C78DB3 /* Build configuration list for PBXNativeTarget "LessonGestureTests" */;
+			buildPhases = (
+				34D4AF8D1AB65E9400C78DB3 /* Sources */,
+				34D4AF8E1AB65E9400C78DB3 /* Frameworks */,
+				34D4AF8F1AB65E9400C78DB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34D4AF971AB65E9400C78DB3 /* PBXTargetDependency */,
+			);
+			name = LessonGestureTests;
+			productName = LessonGestureTests;
+			productReference = 34D4AF911AB65E9400C78DB3 /* LessonGestureTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34D4AF6E1AB65E9400C78DB3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = lanouhn;
+				TargetAttributes = {
+					34D4AF901AB65E9400C78DB3 = {
+						TestTargetID = 34D4AF751AB65E9400C78DB3;
+					};
+				};
+			};
+			buildConfigurationList = 34D4AF711AB65E9400C78DB3 /* Build configuration list for PBXProject "LessonGesture" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 34D4AF6D1AB65E9400C78DB3;
+			productRefGroup = 34D4AF771AB65E9400C78DB3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34D4AF751AB65E9400C78DB3 /* LessonGesture */,
+				34D4AF901AB65E9400C78DB3 /* LessonGestureTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34D4AF741AB65E9400C78DB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34D4AF841AB65E9400C78DB3 /* InfoPlist.strings in Resources */,
+				34D4AF8C1AB65E9400C78DB3 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34D4AF8F1AB65E9400C78DB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34D4AF9D1AB65E9400C78DB3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34D4AF721AB65E9400C78DB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34D4AF8A1AB65E9400C78DB3 /* AppDelegate.m in Sources */,
+				34D4AF861AB65E9400C78DB3 /* main.m in Sources */,
+				34D4AFAA1AB65EBC00C78DB3 /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34D4AF8D1AB65E9400C78DB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34D4AF9F1AB65E9400C78DB3 /* LessonGestureTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		34D4AF971AB65E9400C78DB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34D4AF751AB65E9400C78DB3 /* LessonGesture */;
+			targetProxy = 34D4AF961AB65E9400C78DB3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		34D4AF821AB65E9400C78DB3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34D4AF831AB65E9400C78DB3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		34D4AF9B1AB65E9400C78DB3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34D4AF9C1AB65E9400C78DB3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		34D4AFA01AB65E9400C78DB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		34D4AFA11AB65E9400C78DB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		34D4AFA31AB65E9400C78DB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LessonGesture/LessonGesture-Prefix.pch";
+				INFOPLIST_FILE = "LessonGesture/LessonGesture-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		34D4AFA41AB65E9400C78DB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LessonGesture/LessonGesture-Prefix.pch";
+				INFOPLIST_FILE = "LessonGesture/LessonGesture-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		34D4AFA61AB65E9400C78DB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LessonGesture.app/LessonGesture";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LessonGesture/LessonGesture-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "LessonGestureTests/LessonGestureTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		34D4AFA71AB65E9400C78DB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LessonGesture.app/LessonGesture";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LessonGesture/LessonGesture-Prefix.pch";
+				INFOPLIST_FILE = "LessonGestureTests/LessonGestureTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34D4AF711AB65E9400C78DB3 /* Build configuration list for PBXProject "LessonGesture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34D4AFA01AB65E9400C78DB3 /* Debug */,
+				34D4AFA11AB65E9400C78DB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34D4AFA21AB65E9400C78DB3 /* Build configuration list for PBXNativeTarget "LessonGesture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34D4AFA31AB65E9400C78DB3 /* Debug */,
+				34D4AFA41AB65E9400C78DB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		34D4AFA51AB65E9400C78DB3 /* Build configuration list for PBXNativeTarget "LessonGestureTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34D4AFA61AB65E9400C78DB3 /* Debug */,
+				34D4AFA71AB65E9400C78DB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 34D4AF6E1AB65E9400C78DB3 /* Project object */;
+}
