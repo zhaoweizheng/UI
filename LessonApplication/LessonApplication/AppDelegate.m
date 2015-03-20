@@ -34,7 +34,7 @@
     return YES;
 }
 
-//程序将要取消活动状态
+//程序将要取消活动状态//将要成为非激活状态(程序进入后台)
 - (void)applicationWillResignActive:(UIApplication *)application
 {
      NSLog(@"%s,%d",__FUNCTION__,__LINE__);
